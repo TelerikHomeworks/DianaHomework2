@@ -13,6 +13,7 @@ class DeclareVariable
             int numInt = 4825932;
             sbyte numSbyte = -115;
             short numShort = -10000;
+            Console.WriteLine(numByte + "    " + numUshort + "    " + numInt + "    " + numSbyte + "    " + numShort);
     }
 }
 
