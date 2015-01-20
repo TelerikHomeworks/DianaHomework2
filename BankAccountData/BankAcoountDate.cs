@@ -15,7 +15,7 @@ class BankAccountDate
         Console.WriteLine("Enter last name: ");
         string lastName = Console.ReadLine();
         Console.WriteLine("Enter balance: ");
-        int balance = int.Parse(Console.ReadLine());
+        decimal balance = decimal.Parse(Console.ReadLine());
         Console.WriteLine("Enter bank's name: ");
         string bankName = Console.ReadLine();
         Console.WriteLine("Enter IBAN: ");
