@@ -21,11 +21,11 @@ class BankAccountDate
         Console.WriteLine("Enter IBAN: ");
         string IBAN = Console.ReadLine();
         Console.WriteLine("Enter first credit card number: ");
-        string creditCardNumber1 = Console.ReadLine();
+        ulong creditCardNumber1 = ulong.Parse(Console.ReadLine());
         Console.WriteLine("Enter second credit card number: ");
-        string creditCardNumber2 = Console.ReadLine();
+        ulong creditCardNumber2 = ulong.Parse(Console.ReadLine());
         Console.WriteLine("Enter third credit card number: ");
-        string creditCardNumber3 = Console.ReadLine();
+        ulong creditCardNumber3 = ulong.Parse(Console.ReadLine());
 
     }
 }
